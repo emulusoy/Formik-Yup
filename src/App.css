@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: bisque;
+  color: black;
+}
+form{
+  width: 500px;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+input{
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: bisque;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+.inputDiv{
+  margin: 30px 0px;
+}
+.btn{
+  width: 100%;
+  padding: 7px;
+  background-color: gold;
+  font-weight: bold;
+  border:none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.check{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkbox{
+  width: 18px;
+  height: 12px;
+}
+.input-error{
+  font-size: 17px;
+  color: brown;
+}
